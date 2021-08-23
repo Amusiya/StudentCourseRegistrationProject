@@ -1,0 +1,123 @@
+
+  <!DOCTYPE html>
+  <html lang="en"> 
+  <head>              
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="LOGIN.js"></script>
+<style>
+
+.body{
+
+margin:0 ;
+padding: 0;
+}   
+.contact-form{
+   position:absolute;
+   left: 50%;
+   top: 50%;
+   -webkit-transform: translate(-50%,-50%);
+   -moz-transform: translate(-50%,-50%);
+   -ms-transform: translate(-50%,-50%);
+   -o-transform: translate(-50%,-50%);
+   transform: translate(-50%,-50%);
+   width: 400px;
+   height: 300px;
+   padding: 80px 50px;
+   text-decoration:rgb(110, 92, 98);
+   color: rgba(9, 13, 240, 0.966);
+   background: rgb(55, 218, 230);
+   background-color: rgb(48, 235, 248);
+   opacity: 0.5;
+   text-shadow: 4px red;
+}
+.contact-form h2{
+     margin: 0px;
+     padding: 0 0 20px;
+     color: rgb(27, 4, 230);
+     text-align: center;
+     text-transform: uppercase;
+}
+.span{
+   float: left;
+   padding-left: 16px;
+   display: block;
+   font-size: 25px;
+   color: rgb(0, 25, 139);
+}
+.a{
+  color: rgb(68, 71, 255);
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 10px;
+  text-align: top right;
+  text-transform: capitalize;
+  text-decoration-color: yellowgreen;
+  text-shadow: 5px red;
+
+}
+.body:before{
+
+content: "";
+position: fixed;
+width: 100vw;
+height: 100vh;
+background-image: url(n6.jpg);
+background-position: center center;
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-size: cover;
+-webkit-filter: blur(60px);
+-moz-filter: blur(60px);
+filter:
+
+}
+.contact-form input[type=submit]{
+   height: 30px;
+   width: 120px;
+   color: #fff;
+   font-size: 15px;
+   background: red;
+   cursor: pointer;
+   border-radius: 25px;
+   
+   border:none;
+   outline: none;
+   margin-top: 15%;
+}
+
+
+</style>
+
+    
+</head>
+<body>  
+
+  <img src="C:\Users\ELCOT\Documents\jsexample\sign.jpg" alt="avatar" height="600vh" width="1400vw">
+
+
+
+  <div class="contact-form">
+    <h2> Login</h2>
+
+
+<form name="myform" method="post" onsubmit="return validateform()" >  
+<label for="uname">User Name</label><br><br>
+
+<input type="text" name="name" style="border-radius: 20px; border-color: blue;height: 25px;"><br/><br>
+<label for="password">Password</label><br><br>
+
+<input type="password" name="password" style="border-radius: 20px; border-color: blue;height: 25px;"><br/>
+
+<input type="submit" value="submit"> 
+
+<br><br>
+<span class="">New User <a href="register.html">Register Here</a></span>
+
+</div>
+</form>  
+</body>
+</html>
+
+ 

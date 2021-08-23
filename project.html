@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Document</title>
+   <link rel="stylesheet" href="project.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css">
+
+  
+   <link rel="stylesheet" href="@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');">
+</head>
+<body>
+   
+
+     <div class="container">
+        <div class="navbar">
+           <a href="" class="logo">
+           <i class="fas fa-user-graduate">LOGO</i>
+            <nav>
+               <ul>
+                  <li><a href="HOME.html">Home</a></li>
+                  <li><a href="course1.html">Course</a></li>
+                  <li><a href="about3.html">About</a></li>
+                  <li><a href="contact2.html">Contact</a></li>
+                  <li><a href="placement.html">Placement</a></li>
+                  <li><a href="C:\Users\ELCOT\Documents\jsexample\html\LOGIN.html">Login</a> </li>
+                  <li><a href="C:\Users\ELCOT\Documents\jsexample\html\register.html">Register</a> </li>
+
+               </ul>
+            </nav>
+           <!--<div id="login" class="fas fa-user-circle"></div>-->
+            <img src="" class="menu-icon">
+        </div>
+
+        <div class="login-form">
+            
+         <form action="">
+              <h3>Login</h3>
+             <input type="email" placeholder="username" class="box">
+             <input type="password" placeholder="password" class="box">
+             <p>forget password? <a href="#">click here</a></p>
+             <p>don't have an account? <a href="register.html">Register now</a></p>
+            
+             <input type="submit" class="btn" value="Login">
+             <i class="fas fa-times"></i>
+
+         </form>
+
+
+         <script>
+            $(document).ready(function(){
+              
+              $('#login').click(function(){
+                 $('.login-form').addClass('popup');
+              });
+              $('.login-form form .fa-times').click(function(){
+                 $('.login-form').removeClass('popup');
+              });
+
+              $(window).on('load scroll',function(){
+                    $('#menu').removeClass('fa-times');
+                    $('.navbar').removeClass('nav-toggle');
+
+
+              });
+        
+        
+            });
+        
+        
+        
+        
+        
+        
+          </script>
+        
+        
+        
+
+
+        </div>
+
+
+
+
+
+         <div class="row">
+            <div class="col">
+              <h1>E-Learn</h1>
+              <p>Online course will provide Technical skills and Aptitude skills ,Mainly used to Enhance our knowledge and Logical Thinking.</p>
+              <button type="button"><a href="HOME.html">Explore</a></button>
+            </div>
+            <div class="col">
+               <div class="card card1">
+                  <h5>Online Course</h5>
+               </div>
+               <div class="card card2">
+                  <h5>Node JS course</h5>
+               </div>
+               <div class="card card3">
+                  <h5>Java  Course</h5>
+               </div>
+               <div class="card card4">
+                  <h5>DevOps Course</h5>
+               </div>
+
+            </div>
+
+         </div>
+     </div>
+
+
+
+
+
+</body>
+</html>

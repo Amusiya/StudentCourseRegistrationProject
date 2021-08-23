@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Document</title>
+   <link rel="stylesheet" href="course1.css">
+</head>
+<body>
+     <div class="hero">
+        <h1>Course Description</h1>
+
+         <div class="container">
+             
+            <div class="indicator">
+               <span class="btn active"></span>
+               <span class="btn"></span>
+               <span class="btn"></span>
+               <span class="btn"></span>
+               <span class="btn"></span>
+               <span class="btn"></span>
+
+            </div>
+
+
+
+           <div class="testimonial"></div>
+            <div class="slide-row" id="slide">
+                <div class="slide-col">
+              <div class="user-text">
+                 <p>
+                  Introduction of Python <br>
+                  Basic Programming Concept <br>
+                  Python Lifecycle <br> 
+                  Object Oriented Design <br>
+                  Final Python Project, <br>
+               
+                 </p>
+                 <h3>Fees:Free Course </h3>
+                 <p>Duration: 3 months </p>
+              </div>
+              <div class="user-img">
+                 <img src="C:\Users\ELCOT\Documents\jsexample\x1.jpg" width="270px" height="170px">
+              </div>
+                 </div>
+
+                 <div class="slide-col">
+            <div class="user-text">
+               <p>
+               Introduction of java <br>
+               Learn Basic Programming Concept <br>
+               Advanced Java(J2EE) <br>
+               Database Programming Using JDBC <br>
+               Applicability to Industrial Project <br>
+               
+               </p>
+               <h3>Fees:Free Course </h3>
+               <p>Duration: 3 months </p>
+            </div>
+            <div class="user-img">
+               <img src="C:\Users\ELCOT\Documents\jsexample\x2.jpg" alt="">
+            </div>
+                 </div>
+           
+                <div class="slide-col">
+            <div class="user-text">
+               <p>
+                Introduction of Angular Js <br>
+                 Learn Basic Programming Concept<br>
+                MVC Architecture of Angular Js & Modules,<br>
+                Bootstrap Form & Validation <br>
+                Applicability to Industrial Project<br>
+               
+               </p>
+               <h3>Fees:Free Course </h3>
+               <p>Duration: 3 months </p>
+            </div>
+            <div class="user-img">
+               <img src="C:\Users\ELCOT\Documents\jsexample\x3.png" alt="">
+            </div>
+                 </div>
+  
+                 <div class="slide-col">
+            <div class="user-text">
+               <p>
+               An Overview Of AWS <br>
+               Linux Fundamentals <br>
+                Understand Identity Access Management(IAM)of AWS<br>
+                EC2 Instance & Auto Scaling <br>
+                EBS & Object Storage In Cloud<br>
+                
+               </p>
+               <h3>Fees:Free Course </h3>
+               <p>Duration: 4 months </p>
+            </div>
+            <div class="user-img">
+               <img src="C:\Users\ELCOT\Documents\jsexample\x4.png" alt="">
+            </div>
+                 </div>
+
+                 <div class="slide-col">
+            <div class="user-text">
+               <p>
+                  Introduction to DevOps<br>
+                  Basic Concept Of DevOp <br>
+                  DevOps Lifecycle<br>
+
+                  Benefits of Working in a DevOps Environment <br>
+                  DevOps Stages,DevOps Delivery Pipelin<br>
+                  
+               </p>
+               <h3>Fees:Free Course </h3>
+               <p>Duration: 4 months </p>
+            </div>
+            <div class="user-img">
+               <img src="C:\Users\ELCOT\Documents\jsexample\x5.png" alt="">
+            </div>
+                </div>
+
+                 <div class="slide-col">
+            <div class="user-text">
+               <p>
+                Introduction of Node Js <br>
+               REPT Terminal <br>
+                NPM & CallBack Concept <br>
+                Web Module <br>
+                Express Framework & Restful API <br>
+               
+               </p>
+               <h3>Fees:Free Course </h3>
+               <p>Duration: 4 months </p>
+            </div>
+            <div class="user-img">
+               <img src="C:\Users\ELCOT\Documents\jsexample\node.jpg" alt="">
+            </div>
+                 </div>
+              </div>
+            </div>
+        </div>
+
+      </div>
+       
+<script>
+     var btn = document.getElementsByClassName("btn");
+     
+     var slide = document.getElementById("slide");
+
+    btn[0].onclick = function(){
+          slide.style.transform = "translateX(0px)";
+          for(i=0;i<6;i++){
+             btn[i].classList.remove("active");
+          }
+          this.classList.add("active");
+    }
+    
+    btn[1].onclick = function(){
+          slide.style.transform = "translateX(-800px)";
+          for(i=0;i<6;i++){
+             btn[i].classList.remove("active");
+          }
+          this.classList.add("active");
+
+    }
+
+    btn[2].onclick = function(){
+          slide.style.transform = "translateX(-1600px)";
+          for(i=0;i<6;i++){
+             btn[i].classList.remove("active");
+          }
+          this.classList.add("active");
+
+    }
+
+    btn[3].onclick = function(){
+          slide.style.transform = "translateX(-2400px)";
+          for(i=0;i<6;i++){
+             btn[i].classList.remove("active");
+          }
+          this.classList.add("active");
+
+    }
+
+    btn[4].onclick = function(){
+          slide.style.transform = "translateX(-3200px)";
+          for(i=0;i<6;i++){
+             btn[i].classList.remove("active");
+          }
+          this.classList.add("active");
+
+    }
+
+    btn[5].onclick = function(){
+          slide.style.transform = "translateX(-4000px)";
+          for(i=0;i<6;i++){
+             btn[i].classList.remove("active");
+          }
+          this.classList.add("active");
+
+    }
+
+
+</script>
+
+
+</body>
+</html>

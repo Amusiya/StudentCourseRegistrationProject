@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Document</title>
+   <link rel="stylesheet" href="register.css">
+   <script src="Register.js"></script>
+
+
+</head>
+<body bgcolor="white" onload ='document.form1.text1.focus()'>
+   
+   
+
+   <img src="C:\Users\ELCOT\Documents\jsexample\reg1.png" alt="avatar" height="700vh" width="800vw">
+
+   <form name="register" action="regex.html" method="post" >
+
+   <div class="signup-form">
+   
+       <h2 style="color: rgba(233, 6, 203, 0.863);"><br><br> Create Account</h2>
+
+         <form action="">
+            <label for="fullname">Full Name</label><br><br>
+            <input type="fullname" placeholder="Enter your fullname" style="border-radius: 25px; height: 20px; border-color: blue;" > <br>
+          <br>
+          <label for="email">Email</label><br><br>
+          <input type="email" placeholder="Enter Your Email" style="border-radius: 25px; height: 20px; border-color: blue;"> <br><br>
+          
+          <label for="username">Phone Number</label><br><br>
+          <input type="phone number" placeholder="Enter your Phone Number" style="border-radius: 25px; height: 20px; border-color: blue;" > <br>
+           <br>
+           <label for="qualifi">Qualification</label><br><br>
+           <select name="course" id="qualification" style="border-radius:25px; height: 20px; border-color: blue;" > <br><br><br>
+            <option value="cse">Select</option>
+
+            <option value="cse">CSE</option>
+            <option value="It">IT</option>
+           </select><br><br>
+
+           <label for="course">Select Course</label><br><br>
+           <select name="course" id="course" style="border-radius: 25px; height: 20px; border-color: blue"  > <br><br>
+            <option value="cse">Select</option>
+
+            <option value="python">Python</option>
+            <option value="cse">Java</option>
+            <option value="cse">Angular Js</option>
+            <option value="cse">AWS Cloud</option>
+            <option value="cse">DevOps</option>
+            <option value="cse">Node Js</option>
+         </select><br>
+          <input type="submit" value="Register" name="Validate" onclick="ValidateEmail(document.form1.text1)"> 
+          <br><br>
+          
+           <p style="color:rgba(52, 248, 12, 0.89);">Have already an account? <a href="C:\Users\ELCOT\Documents\jsexample\html\sign.html">Login Here</a>  </p>
+
+         </form>
+   </div>
+     
+</body>
+</html>

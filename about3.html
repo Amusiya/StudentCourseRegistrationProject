@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css">
+
+
+<style>
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.column {
+  float: left;
+  width: 33.3%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 8px;
+}
+
+.about-section {
+  padding: 50px;
+  text-align: center;
+  background-color: #251581;
+  color: white;
+}
+
+
+
+
+.container {
+  padding: 0 16px;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: rgb(13, 22, 153);
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.social .fab
+{
+   font-size: 20px;
+   padding: 10px 8px;
+   cursor: pointer;
+}
+.fa-facebook
+ {
+    color: #5088fb;
+ }
+ .fa-youtube
+ {
+    color: #ff0000;
+ }
+
+ .fa-twitter
+ {
+    color: #1da1f2;
+ }
+
+ .fa-instagram
+ {
+    color: #e95950;
+ }
+
+
+
+
+.button:hover {
+  background-color: rgb(11, 27, 114);
+}
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="about-section">
+  <h1>About Us </h1>
+  <p>Some text about who we are and what we do.</p>
+  <p>E-Learn center Team Members.</p>
+</div>
+
+<h2 style="text-align:center">Our Team</h2>
+<div class="row">
+  <div class="column">
+    <div class="card">
+      <img src="C:\Users\ELCOT\Documents\jsexample\f1.jpg" alt="" style="width:100%" height="0%">
+      <div class="container">
+        <h2>William Doe</h2>
+        <p class="title">CEO & Founder</p>
+        <p>Mr.William Doe is CEO of E-Learn Center in Banglore,Karnataka.</p>
+        <p style="color: darkblue;">william@elearn.com</p>
+
+
+        <div class="social">
+         <a href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a>
+         <a href="https://www.twitter.com/"><i class="fab fa-twitter"></i></a>
+         <a href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a>
+         <a href="https://www.youtube.com/"><i class="fab fa-youtube"></i></a>
+
+
+     </div>
+
+
+
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <img src="C:\Users\ELCOT\Documents\jsexample\f4.jpg" alt="Mike" style="width:100%">
+      <div class="container">
+        <h2>Mike Ross</h2>
+        <p class="title">Manager</p>
+        <p>Mr.Mike Ross is Manager of Head Office in Bangalore,Karnataka.</p>
+        <p style="color: darkblue;">mike@elearn.com</p>
+
+        <div class="social">
+         <a href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a>
+         <a href="https://www.twitter.com/"><i class="fab fa-twitter"></i></a>
+         <a href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a>
+         <a href="https://www.youtube.com/"><i class="fab fa-youtube"></i></a>
+
+     </div>
+
+
+        <p><button class="button">Contact</button></p>
+
+      </div>
+    </div>
+  </div>
+  
+  <div class="column">
+    <div class="card">
+      <img src="C:\Users\ELCOT\Documents\jsexample\f2.jpg" alt="John" style="width:100%">
+      <div class="container">
+        <h2>John Doe</h2>
+        <p class="title">Assistant Manager </p>
+        <p>Mr.John Doe is Assistant Manager and Designer of E-Learn center in Bangalore,Karnataka .</p>
+        <p style="color: darkblue;"> john@elearn.com</p> 
+
+        <div class="social">
+         <a href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a>
+         <a href="https://www.twitter.com/"><i class="fab fa-twitter"></i></a>
+         <a href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a>
+         <a href="https://www.youtube.com/"><i class="fab fa-youtube"></i></a>
+
+     </div>
+
+
+
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
