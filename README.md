@@ -8,6 +8,11 @@ In this project contains two validation one is signin page validation , another 
 
 In this project includes few pages HOME,COURSE,CONTACT,ABOUT,PLACEMENTS,LOGIN,REGISTER pages.
 
+![Screenshot (1043)](https://user-images.githubusercontent.com/88303327/130603652-dd16fc78-2dca-46ab-b32f-7b49a314ac03.png)
+
+HOME PAGE:
+
+In this page includes course details & Fees.
 
 
 SIGNIN PAGE : This page for Existing user, Existing user already have an account of in this E-Learn Site.So Existing user no need to create account.
