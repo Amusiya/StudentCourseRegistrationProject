@@ -38,12 +38,17 @@ CONTACT PAGE:
 
 Its contain contact details of E-Learn center.
 
+![Screenshot (1050)](https://user-images.githubusercontent.com/88303327/130606967-e5322815-264d-4890-a7d9-4e3b17188976.png)
 
 
 PLACEMENT PAGE :
  
  In this page having students placement records and their social media contacts.
  
+![Screenshot (1051)](https://user-images.githubusercontent.com/88303327/130606985-f3004f94-dfe3-4d97-a28e-b545921e2058.png)
+
+![Screenshot (1052)](https://user-images.githubusercontent.com/88303327/130606992-10195dc8-79ee-4285-ade3-bec010ec9b74.png)
+
 
 SIGNIN PAGE : This page for Existing user, Existing user already have an account of in this E-Learn Site.So Existing user no need to create account.
 
