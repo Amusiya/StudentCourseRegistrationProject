@@ -32,8 +32,18 @@ In this page includes E-Learn Team members and their contact details.
 
 ![Screenshot (1048)](https://user-images.githubusercontent.com/88303327/130606323-a140f0b3-76d1-4db2-a5f6-869f40571e2c.png)
 
+![Screenshot (1049)](https://user-images.githubusercontent.com/88303327/130606370-a9750d66-125f-4036-b718-a40333e66169.png)
+
+CONTACT PAGE:
+
+Its contain contact details of E-Learn center.
 
 
+
+PLACEMENT PAGE :
+ 
+ In this page having students placement records and their social media contacts.
+ 
 
 SIGNIN PAGE : This page for Existing user, Existing user already have an account of in this E-Learn Site.So Existing user no need to create account.
 
