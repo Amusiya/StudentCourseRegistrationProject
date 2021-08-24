@@ -24,6 +24,11 @@ COURSE PAGE:
  
  ![Screenshot (1046)](https://user-images.githubusercontent.com/88303327/130605666-770fc046-96a2-4f19-8ac2-b3bba77cf8be.png)
 
+![Screenshot (1047)](https://user-images.githubusercontent.com/88303327/130605808-44c52b4a-c103-439f-81d6-e59f20e4088a.png)
+
+ABOUT PAGE:
+
+In this page includes E-Learn Team members and their contact details.
 
 
 SIGNIN PAGE : This page for Existing user, Existing user already have an account of in this E-Learn Site.So Existing user no need to create account.
